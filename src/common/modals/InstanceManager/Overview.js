@@ -488,8 +488,8 @@ const Overview = ({ instanceName, background, manifest }) => {
                     )
                   );
                 } else if (v) {
-                  setJavaLocalMemory(4096);
-                  updateJavaMemory(4096);
+                  setJavaLocalMemory(1536);
+                  updateJavaMemory(1536);
                 }
               }}
             />

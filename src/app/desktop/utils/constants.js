@@ -13,7 +13,7 @@ export const DEFAULT_JAVA_ARGS = `${
 } -Xms256m`;
 export const REQUIRED_JAVA_ARGS =
   '-Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true';
-export const DEFAULT_MEMORY = 4096;
+export const DEFAULT_MEMORY = 1536;
 
 export const resolutionPresets = [
   '854x480',
